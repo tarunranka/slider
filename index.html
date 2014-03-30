@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Slider</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+<div class="container">
+	<div class="slider">
+		 <a href class="control_next">></a>
+		  <a href class="control_prev"><</a>
+		  <ul class="sliderwpr">
+			<li>SLIDE 1</li>
+			<li style="background: #aaa;">SLIDE 2</li>
+			<li>SLIDE 3</li>
+			<li style="background: #aaa;">SLIDE 4</li>
+		  </ul>
+		  <ul class="pagination">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		  </ul>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.slider.js"></script>
+<script>
+$('.slider').slider();
+</script>
+</body>
+<html>
